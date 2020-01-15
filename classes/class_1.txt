@@ -1,0 +1,19 @@
+Class: Table
+
+Attributes:
+numberOfSeats (integer)
+positionInResturant (integer)
+totalNumberOfPlates (integer)
+currentNumberOfPlates (integer)
+tableName (string)
+isClean (boolean)
+isSanatized (boolean)
+isSeated (boolean)
+isOrdered (boolean)
+isWaiting (boolean)
+
+Methods:
+wipeTable (check isSanatized; if false; wipe table; change isSanatized === true;)
+cleanTable (check isClean; if false, remove currentNumberOfPlates from totalNumberOfPlates; check isSanatized; if false, wipeTable; change isClean and isSanatized === true) 
+orderFood (check isWaiting isSeated isOrdered; if isOrdered = false but isSeated && isWaiting === true)
+runFood (check isOrdered and isWaiting; if true; run food to table; change isWaiting === false)
