@@ -1,0 +1,18 @@
+Object: Table 55
+
+Attributes:
+numberOfSeats: 4
+positionInResturant: 55
+totalNumberOfPlates: 15
+currentNumberOfPlates: 0
+tableName: "Fireplace 4 Top"
+isClean: false
+isSanatized: false
+isSeated: true
+isOrdered: true
+isWaiting: true
+
+Methods:
+orderFood: send order to kitchen
+runFood: drop food at proper seat numberOfSeats
+cleanTable: isSanatized && isClean === true
