@@ -1,0 +1,22 @@
+// How to become a student of touring
+1 Becoming a student
+    1.1 Decide that it is time for a new career
+        1.1.1 Stumble upon Turing School Software and Design's website
+            1.1.1.1 Read through the documentation
+            1.1.1.2 Fall in love with their message and non profit status
+            1.1.1.3 Click apply
+    1.2 Aplication process
+        1.2.1 Answer the logic questions
+        1.2.2 Set up an interview
+            1.2.2.1 Make a phone call to the school and set up a tour
+        1.2.3 Interview process
+            1.2.3.1 Answer more logic problems
+            1.2.3.2 the rest of the interview involves a behaviorial analysis
+        1.2.4 recieve results from the interview
+        1.2.5 Pay deposit and secure tutition
+    1.3 Mod 0 - learning the basics
+        1.3.1 Mod 0 starts with learning vocabulary
+        1.3.2 command line and git skills
+        1.3.3 Technical Assesment 
+            1.3.3.1 Using the skills learned in Mod 0 all together
+        1.3.4 Turing and beyond
