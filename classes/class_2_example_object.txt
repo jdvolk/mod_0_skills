@@ -1,0 +1,18 @@
+Object: Seafood Kitched
+
+Attributes:
+name: "Max's Gill and Grill"
+isPrepped: false
+isStaffed: true
+amoundOFEntrees: 0
+laborCost: 45
+amountOfFood: 400
+isClean: true
+timePerOrder: 8
+
+Methods:
+
+prepDinner: amountOfFood - 300, amoundOFEntrees + 300
+dinnerOrder: amoundOFEntrees - 4
+isEfficient: true, timePerOrder -3
+cleanKitchen: isClean === true

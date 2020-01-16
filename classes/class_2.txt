@@ -1,0 +1,20 @@
+Class: Kitchen
+
+Attributes:
+
+name (string)
+isPrepped (boolean)
+isStaffed (boolean)
+amountOfEntrees (integer)
+laborCost (float)
+amountOfFood (float)
+isClean (boolean)
+timePerOrder (float)
+
+Methods:
+
+prepDinner (check if isPrepped === false; if false, subtract from amountOfFood add to amountOfEntrees)
+dinnerOrder (if isPrepped === true; create dinner order, subtract from amountOfEntrees)
+cleanKitchen (if isClean === false; clean kitchen; then isClean === true)
+isEfficient (if isPrepped && isStaffed === true; subtract from timePerOrder; else add to timePerOrder)
+
